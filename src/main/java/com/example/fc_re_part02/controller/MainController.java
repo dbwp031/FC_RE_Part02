@@ -9,6 +9,5 @@ public class MainController {
     @GetMapping("/")
     public String root() {
         return "forward:/articles";
-        f 
     }
 }
